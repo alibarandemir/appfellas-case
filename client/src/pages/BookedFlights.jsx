@@ -101,7 +101,7 @@ export default function BookedFlights() {
         <div className="flex items-center gap-x-1">
           <FaCircleInfo className="text-blue-500" />
           <p className="gap-x-2">
-            Avg Fare:<span className="font-bold">${totalPrice}</span>
+            Total Fare:<span className="font-bold">${totalPrice}</span>
           </p>
         </div>
       </div>

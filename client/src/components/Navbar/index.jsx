@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <div className='flex justify-between items-center h-20 px-4 md:px-10 bg-gray-100 w-full top-0'>
       {/* Sol Taraf */}
-      <div className='flex items-center space-x-2 md:space-x-4'>
+      <div onClick={()=>{navigate('/')}} className='flex items-center space-x-2 md:space-x-4 cursor-pointer'>
         <div className='rounded-3xl w-8 h-8 md:w-10 md:h-10 bg-appColor flex items-center justify-start'>
           <FaPlane className='text-white text-xl md:text-2xl' />
         </div>
